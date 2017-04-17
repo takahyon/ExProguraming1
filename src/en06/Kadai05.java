@@ -3,7 +3,7 @@ package en06;
 /**
  * Created by shouta on 2017/04/10.
  */
-public class Kadai04 {
+public class Kadai05 {
     public static void main(String[] args) {
         int[] count = new int[6];
 
