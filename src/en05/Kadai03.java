@@ -1,14 +1,16 @@
 package en05;
 
 /**
- * Created by shouta on 2017/04/10.
+ * Created by shouta on 2017/05/15.
  */
 public class Kadai03 {
     public static void main(String[] args) {
+        String istr = "error404, Mar 13 00:21:10 2017, 254651203 bytes";
+        String ostr;
 
-        for (int i = 0; i < 5; i++) {
-            int r = new java.util.Random().nextInt(101);
-            System.out.println(r);
-        }
+        System.out.println(istr);
+        System.out.println(istr.replaceAll("\\d{9}", "*"));
+        System.out.println(istr.replaceAll("\\d{2,4}", "*"));
+        System.out.println(istr.replaceAll("\\d{4,}", "*"));
     }
 }

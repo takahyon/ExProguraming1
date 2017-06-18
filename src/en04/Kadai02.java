@@ -1,14 +1,17 @@
 package en04;
 
 /**
- * Created by shouta on 2017/04/10.
+ * Created by shouta on 2017/05/08.
  */
 public class Kadai02 {
     public static void main(String[] args) {
-        int n = 0;
-        for (int i = 0; i < 100; i++) {
-            n += i + 101;
-        }
-        System.out.println(n);
+        double b = -271828.1828459;
+        //RString str;
+
+        System.out.println(String.format("%f", b));
+        System.out.println(String.format("%.3f", b));
+        System.out.println(String.format("%10.1f", b));
+        System.out.println(String.format("%0,15.4f", b));
+        System.out.println(String.format("%12.4e", b));
     }
 }
